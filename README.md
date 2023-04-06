@@ -32,11 +32,11 @@ node app.js
 ```
 Once the conversion is complete, you should see two log messages in the console indicating whether the text was successfully converted to speech and whether the WAV file was successfully converted to MP3.
 
-vbnet
-
 ## Text converted to speech successfully.
+```
 WAV converted to MP3 successfully.
 You can find the output MP3 file in the project directory with the name output.mp3.
+```
 
 ## Configuration
 By default, the application uses the Microsoft Zira Desktop voice for speech synthesis. You can change the voice and other settings by modifying the parameters in the say.export() function. You can find more information on the available options in the official say package documentation.
