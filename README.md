@@ -4,33 +4,33 @@ https://www.youtube.com/watch?v=1wkTnrfCNoE
 This is a simple Node.js application that converts text in a specified text file to speech and saves the output as an MP3 file. It uses the fs, child_process, and say packages for file reading, executing shell commands, and text-to-speech conversion, respectively.
 
 Getting Started
-Clone this repository to your local machine.
+1. Clone this repository to your local machine.
 
 bash
 ```
 git clone https://github.com/yourusername/text-to-speech-converter.git
 ```
-Navigate to the project directory.
+2. Navigate to the project directory.
 
 bash
 ```
 cd text-to-speech-converter
 ```
-Install dependencies.
+3. Install dependencies.
 
 bash
 ```
 npm install
 ```
-Create a text file named input.txt in the project directory and add the text you want to convert to speech.
+4. Create a text file named input.txt in the project directory and add the text you want to convert to speech.
 
-Run the application.
+5. Run the application.
 
 bash
 ```
 node app.js
 ```
-Once the conversion is complete, you should see two log messages in the console indicating whether the text was successfully converted to speech and whether the WAV file was successfully converted to MP3.
+6. Once the conversion is complete, you should see two log messages in the console indicating whether the text was successfully converted to speech and whether the WAV file was successfully converted to MP3.
 
 ## Text converted to speech successfully.
 ```
