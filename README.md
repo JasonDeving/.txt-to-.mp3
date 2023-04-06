@@ -49,11 +49,13 @@ javascript
 ```js
 say.export(text, 'Microsoft Zira Desktop', 1, 'output.wav', (err) => {
 ```
-text - The text to be converted to speech.
-'Microsoft Zira Desktop' - The name of the voice to use for the speech. You can find a list of available voices by running the command say.getInstalledVoices().
-1 - The speed of the speech. 1 is the normal speed.
-'output.wav' - The name of the WAV file that will be generated.
-(err) => { ... } - The callback function that will be called after the speech has been generated.
+
+- text - The text to be converted to speech.
+- 'Microsoft Zira Desktop' - The name of the voice to use for the speech. You can find a list of available voices by running the command say.getInstalledVoices().
+- 1 - The speed of the speech. 1 is the normal speed.
+- 'output.wav' - The name of the WAV file that will be generated.
+- (err) => { ... } - The callback function that will be called after the speech has been generated.
+
 Dependencies
 - fs - Node.js file system module for reading the input file.
 - exec - Node.js child process module for running the 'ffmpeg' command.
