@@ -1,5 +1,5 @@
 # .txt-to-.mp3
-create with chatgpt
+created with chatgpt
 
 https://www.youtube.com/watch?v=1wkTnrfCNoE
 
