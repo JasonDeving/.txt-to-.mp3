@@ -63,3 +63,5 @@ Dependencies
 
 ## Troubleshooting
 If you encounter any issues or errors, please feel free to submit an issue on GitHub.
+
+tip jar: ₿itcoin: bc1ql0aj84gw63c0x582ky5hjs2u7x98eslhyf8r9m
